@@ -1,2 +1,2 @@
-[callables/](callables/README.md) - exampels of using functins as actions\
-[events/](events/README.md) - examples if using threading.Event for thread synchronization
+[callables/](callables/) - examples of using functions as actions\
+[events/](events/) - examples if using threading.Event for thread synchronization
