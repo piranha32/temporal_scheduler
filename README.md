@@ -19,7 +19,7 @@ Please see [examples](examples/) directory
 
 # Requirements
 
-Package depends on ```SortedDict```
+Package depends on [```SortedDict```](https://grantjenks.com/docs/sortedcontainers/sorteddict.html)
 
 
 # License
