@@ -9,11 +9,24 @@ useful enough to turn the code into a standalone package.
 Callable actions are executed in own threads, so an exception during execution will 
 not interfere with operation of the scheduler.
 
+# Installation
 
+```pip install temporal_scheduler ```
 
 # Usage
 
 Please see [examples](examples/) directory
+
+# Requirements
+
+Package depends on ```SortedDict```
+
+
+# License
+
+GPLv3
+
+
 
 # Theory of operation
 
@@ -148,18 +161,6 @@ thread and calling a callback function would be extremely wasteful.
 This becomes very important when the events are triggered with high frequency.
 
 
-# Installation
-
-```pip install temporal_scheduler ```
-
-# Requirements
-
-Package depends on ```SortedDict```
-
-
-# License
-
-GPLv3
 
 # Author
 

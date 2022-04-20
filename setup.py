@@ -12,7 +12,7 @@ from setuptools import setup
 #      wheel: python -m build --wheel
 #      source: python -m build --sdist
 # upload to testpypi: twine upload --repository testpypi dist/*
-# upload to pypi: twine upload --repository testpypi dist/*
+# upload to pypi: twine upload dist/*
 
 def read(filename):
     filename = os.path.join(os.path.dirname(__file__), filename)
@@ -23,7 +23,7 @@ def read(filename):
 
 setup(
     name="temporal_scheduler",
-    version="2022.04.18",
+    version="2022.04.18.1",
     url="https://github.com/piranha32/temporal_scheduler",
     license='GPLv3',
 
